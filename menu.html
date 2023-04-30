@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Menu-card</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo1.png" alt="logo" class="logo">
+                <img src="images/heading.png" alt="heading" class="heading">
+            </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="./index.html#aboutus">ABOUT US</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="./index.html#outlets">OUTLETS</a></li>
+                    <li><a href="./index.html#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="row">
+            <div class="columnimg">
+                <img src="images/2.jpg" alt="menu" class="menu2">
+            </div>
+            <div class="columnimg">
+                <img src="images/1.jpg" alt="menu" class="menu1">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <img src="images/heading.png" alt="footer-name">
+        <div class="social">
+            <h4>CONNECT WITH US</h4><br>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" id="fb"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram" id="insta"></i></a>
+            <a href="https://www.linkedin.com/in/parth-ahuja-a0229622b/"><i class="fa-brands fa-linkedin-in"
+                    id="linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter" id="tweet"></i><br></a>
+            <h6>Made with <i class="fa-solid fa-heart"></i> by Parth Ahuja</h6>
+        </div>
+    </section>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Lemon-Citrus</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo1.png" alt="logo" class="logo">
+                <img src="images/heading.png" alt="heading" class="heading">
+            </a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="#outlets">OUTLETS</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="centerbuttons">
+            <a href="menu.html" class="orderlink"><button class="orderbutton">Order Now</button></a><br>
+            <a href="#contact" class="tablelink"><button class="orderbutton">Reserve Table</button></a>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="aboutus" id="aboutus">
+        <h1 class="abouthead">ABOUT US</h1>
+        <p class="aboutpara">Lemon & Citrus is a contemporary Chinese restaurant offering authentic dishes with a modern
+            twist. Our menu features a variety of dishes crafted with fresh and authentic ingredients, ranging from
+            classic dim sum and noodle dishes to succulent seafood and flavorful vegetarian options. </p>
+    </section>
+
+    <!-- Our practices -->
+    <section class="practices">
+        <h1 class="aboutprac">Our Practices</h1>
+        <div class="row">
+            <div class="prac-column">
+                <i class="fa-solid fa-bell-concierge"></i>
+                <h3 class="prachead">Authentic Food</h3>
+                <p>We take pride in serving authentic cuisine that captures the true essence of Chinese food. Each dish
+                    on our menu is carefully crafted using traditional recipes and fresh ingredients to ensure a taste
+                    experience that is both genuine and unforgettable.</p>
+            </div>
+            <div class="prac-column">
+                <i class="fa-solid fa-mask-face"></i>
+                <h3 class="prachead">Covid Guidelines</h3>
+                <p>We are committed to ensuring the health and safety of our customers and staff by strictly adhering to
+                    all COVID-19 guidelines. We maintain a clean and sanitized environment, require masks for all
+                    employees, and offer contactless payment options to minimize contact.</p>
+            </div>
+            <div class="prac-column">
+                <i class="fa-solid fa-leaf"></i>
+                <h3 class="prachead">Eco-friendly</h3>
+                <p>We use compostable packaging and source our ingredients from local and sustainable suppliers,
+                    reflecting our commitment to sustainability and promoting a greener future for our community.We also
+                    encourage our customers to join us in our efforts by offering recycling options and promoting waste
+                    reduction practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="outlets" id="outlets">
+        <h1>Outlets</h1>
+        <div class="row">
+            <div class="out-column">
+                <img src="images/rest1.jpg" alt="restaurant" class="rest">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+            <div class="out-column">
+                <img src="images/rest2.jpg" alt="restaurant" class="rest">
+                <div class="layer">
+                    <h3>Delhi</h3>
+                </div>
+            </div>
+            <div class="out-column">
+                <img src="images/rest3.jpg" alt="restaurant" class="rest">
+                <div class="layer">
+                    <h3>Chicago</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h2>What our customers say?</h2>
+        <div class="row">
+            <div class="revcol">
+                <i class="fa-solid fa-user" id="userlogo"></i>
+                <span id="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star-half-stroke"></i></i></i></span>
+
+                <p>If you're looking for delicious Chinese cuisine served in a warm and welcoming atmosphere, look
+                    no further than Lemon & Citrus. Their menu offers a wide variety of flavorful dishes that are
+                    sure to satisfy any craving, while the beautiful decor and attentive service make for an
+                    unforgettable dining experience.</p>
+                <h4>Mr Bhatia</h4>
+
+            </div>
+            <div class="revcol">
+                <i class="fa-solid fa-user" id="userlogo"></i>
+                <span id="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-regular fa-star"></i></span>
+
+                <p>The warm and inviting ambiance at Lemon & Citrus is the perfect setting for a cozy night out.
+                    With beautiful decor and attentive service, you'll feel right at home while enjoying their
+                    delicious Chinese cuisine.</p>
+                <h4>Mr Grover</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1> For orders, table reservations or any other query </h1>
+        <a href="mailto:parthahuja2003@gmail.com">CONTACT US</a>
+    </section>
+    <section class="footer">
+        <img src="images/heading.png" alt="footer-name">
+        <div class="social">
+            <h4>CONNECT WITH US</h4><br>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" id="fb"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram" id="insta"></i></a>
+            <a href="https://www.linkedin.com/in/parth-ahuja-a0229622b/"><i class="fa-brands fa-linkedin-in"
+                    id="linkedin"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter" id="tweet"></i><br></a>
+            <h6>Made with <i class="fa-solid fa-heart"></i> by Parth Ahuja</h6>
+        </div>
+    </section>
+    <!-- JS for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
