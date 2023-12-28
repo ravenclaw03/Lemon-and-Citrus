@@ -1,2 +1,5 @@
+#Lemon & Citrus
+
 Hi everyone!
-I have created a begginer-friendly website using html and css. This is the first part of my joutny in Web Development and I am pretty excited. Hope you like it!
+This is a responsive restaurant website using HTML and CSS. This is the first part of my journey in Web Development and I am pretty excited.
+Hope you like it!
